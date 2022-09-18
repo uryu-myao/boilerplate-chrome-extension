@@ -1,0 +1,7 @@
+{
+    "/dist/js/contentScript.js": "/dist/js/contentScript.js",
+    "/dist/background.js": "/dist/background.js",
+    "/dist/css/style.css": "/dist/css/style.css",
+    "/dist/manifest.json": "/dist/manifest.json",
+    "/dist/html/popup.html": "/dist/html/popup.html"
+}

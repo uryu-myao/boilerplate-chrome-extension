@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Boilerplate",
+  "description": "This is the Boilerplate.",
+  "version": "1.0",
+  "permissions": [],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/contentScript.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": ["<all_urls>"],
+      "resources": []
+    }
+  ],
+  "action": {
+    "default_title": "Boilerplate",
+    "default_popup": "html/popup.html",
+    "default_icon": {
+      "16": "shared/icon_16.png",
+      "48": "shared/icon_48.png",
+      "128": "shared/icon_128.png"
+    }
+  }
+}
